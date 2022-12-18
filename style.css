@@ -1,94 +1,144 @@
- @import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Poppins:ital,wght@1,300&family=Sofia&display=swap'); 
+ @import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Poppins:ital,wght@1,300&family=Sofia&display=swap');
 
-
-
- body{
-    margin: 0px;
+  *{
     padding: 0%;
-}
-.container{
-    padding: 0px 15px;
+    margin: 0%;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+ body {
+     margin: 0px;
+     padding: 0%;
+ }
+
+ .container {
+     padding: 0px 15px;
+
+ }
+
+ img {
+
+     height: 60px;
+     width: 150px;
+ }
+
+ .container {
+     box-shadow: 0px 2px 30px 2px black;
+     height: 88px;
+ }
+
+ .flex-container {
+
+     display: flex;
+
+ }
+
+ .logo {
+     flex: 1;
+
+ }
+
+ .bcl {
+     margin: 15px 100px;
+ }
+
+ .navbar {
+     flex: 1;
+     display: flex;
+     margin: auto auto;
+     justify-content: space-evenly;
+ }
+
+ a {
+     text-decoration: none;
+     font-size: 16px;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 800;
+     padding: 0%;
+
+ }
+
+ a:hover {
+     color: red;
+ }
+
+ .container2 {
+     background-image: url(/images/banner-bg.jpg);
+     background-size: cover;
+     border: 2px solid red;
+     height: 600px;
+     line-height: 44px;
+     margin-top:41px ;
+     padding-top: 60px;
+     display: flex;
+     flex-direction: column;
+     padding-left: 60px;
+    justify-content: space-between;
+    width: 100%;
    
-}
-img {
 
-    height: 60px;
-    width: 150px;
-}
-
-.container {
-    box-shadow: 0px 2px 30px 2px black;
-    height: 88px;
-}
-
-.flex-container {
-
-    display: flex;
-
-}
-
-.logo {
-  flex: 1;
-
-}
-.bcl{
-    margin: 15px 100px;
-}
-
-.navbar {
-    flex: 1;
-    display: flex;
-    margin: auto auto;
-    justify-content: space-evenly;
-}
-
-a {
-    text-decoration: none;
-    font-size: 16px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 800;
-    padding: 0%;
-
-}
-
-a:hover {
-    color: red;
-}
-.container2 {
-  background-image: url(/images/banner-bg.jpg);
-  background-size: cover;
-  
-    border: 2px solid red;
-}
-
-h2 {
-    margin-left: 50px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    color: #222222;
-    width: 312px;
-    height: 134px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-size: 30px;
-       border: 2px solid green;
-    padding: 10px;
-}
-
-
-
-.designation {
-       
-    padding-left: 50px;
-    width: 330px;
-    height: 84px;
-
-}
-.designation p {
-
-    color: #777777;
-    font-family: 'roboto',sans-serif;
-    font-size: 30px;
-
+ }
+ .container2 .company-name{
     
-}
+     /* background-color: #777777; */
+     
+    
+ }
+ 
+
+ .container2 .company-name h2 {
+    width: 540px;
+     height: 135px; 
+     font-weight: 600;
+     color: #222222;
+     font-size: 30px;
+     /* border: 2px solid green; */
+     font-family: 'roboto', sans-serif;
+     margin-left: 0px;
+     margin-bottom:0;
+     display: flex;
+     
+ }
+
+
+
+ .designation {
+
+     
+     width: 390px;
+     height: 100px;
+     /* margin: 10px 0px 0px 50px; */
+     display: flex;
+
+ }
+
+ .designation p {
+
+     color: #777777;
+     font-family: 'roboto', sans-serif;
+     font-size: 30px;
+     padding-left: 0%;
+     padding-top: 0%;
+
+
+ }
+ .div-button {
+    
+    height: 250px;
+    margin-top: 150px;
+    
+ }
+
+
+ .primary-button {
+    background-color: red;
+    height: 60px;
+    width: 260px;
+    border-radius: 30px;
+    color: white;
+    font-family: 'roboto', sans-serif;
+    font-weight: 900;
+   
+
+ }
